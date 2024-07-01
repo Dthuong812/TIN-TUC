@@ -1,0 +1,54 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1613166093303-e0dfaa9442b4?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+.login {
+    width: 300px; 
+    padding: 20px 20px 30px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.login h1 {
+    text-align: center;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login label {
+    margin-bottom: 5px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin-top: -10px;
+}
+
